@@ -48,22 +48,6 @@
 
 * Codigo
 
-''' html
-johan@johan-Victus-by-HP-Laptop-16-d0xxx:~$ telnet www.httpbin.org 80
-Trying 35.171.123.176...
-Connected to www.httpbin.org.
-Escape character is '^]'.
-GET /html HTTP/1.1
-Host: www.httpbin.org
-
-HTTP/1.1 200 OK
-Date: Thu, 22 Feb 2024 22:49:04 GMT
-Content-Type: text/html; charset=utf-8
-Content-Length: 3741
-Connection: keep-alive
-Server: gunicorn/19.9.0
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Credentials: true
 
 <!DOCTYPE html>
 <html>
