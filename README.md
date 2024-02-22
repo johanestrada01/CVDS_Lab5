@@ -1,4 +1,4 @@
-# CVDS_Lab4
+# CVDS_Lab5
 ## Integrantes
 * Juan David Contreras Becerra
 * Ana Maria Duran Burgos
