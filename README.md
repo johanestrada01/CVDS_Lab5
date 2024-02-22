@@ -7,6 +7,31 @@
 ## Solución
 * ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
   * El codigo de error que se tiene como respuesta es 301. Este codigo indica que el recurso fue movido a otro lugar, la peticion debe ser relizada a la nueva dirección.
+```
+Trying 54.237.133.81...
+Connected to stark-cherimoya-jg38tzhyu4qth9c744i6vz0y.herokudns.com.
+Escape character is '^]'.
+GET /sssss/abc.html HTTP/1.0
+Host: www.escuelaing.edu.co
+
+HTTP/1.1 301 Moved Permanently
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708641472&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=MAHUW53q8ZjhMc%2BI1uquOBT%2BFOJKzgeVPJQyNixLNIg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708641472&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&s=MAHUW53q8ZjhMc%2BI1uquOBT%2BFOJKzgeVPJQyNixLNIg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: close
+Server: gunicorn
+Date: Thu, 22 Feb 2024 22:37:52 GMT
+Content-Type: text/html; charset=utf-8
+Location: https://www.escuelaing.edu.co/sssss/abc.html
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Via: 1.1 vegur
+
+Connection closed by foreign host.
+
+```
+
 * ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
    *  Los codigos de error corresponden a los 400 y 500, los 300 son codigos de redirección.
       *  400: Bad Request
