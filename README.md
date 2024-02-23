@@ -4,7 +4,9 @@
 * Ana Maria Duran Burgos
 * Johan Alejandro Estrada
 
-## Solución
+## Parte I - JUGANDO A SER UN CLIENTE HTTP
+
+### Solución
 * ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
   * El codigo de error que se tiene como respuesta es 301. Este codigo indica que el recurso fue movido a otro lugar, la peticion debe ser relizada a la nueva dirección.
 ```
@@ -790,3 +792,11 @@ Access-Control-Allow-Credentials: true
 
 * ¿Cuáles son las diferencias con los diferentes parámetros?
     * Curl -v muestra la informacion detallada sobre la comunicación entre cliente y servidor, incluyendo encabezado de solicitud y respuesta, ademas de mensjaes de depuración. Curl -i muestra unicamente los encabezados de respuesta, incluyendo informacion como el codigo de estado, version del protocolo y el codigo de estado.
+
+## Parte II - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC
+
+
+## Parte III - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
+
+
+## Parte IV - APLICACIÓN MVC JUEGO
