@@ -795,8 +795,30 @@ Access-Control-Allow-Credentials: true
 
 ## Parte II - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC
 
+ * ¿Por qué MVC obtiene ese nombre?
+    * MVC, que significa Model View Controller, obtiene su nombre debido a la forma en que organiza la arquitectura de una aplicación de software.
+   
+* ¿Cuáles son las ventajas de usar MVC?
+    * Algunas ventajas son la separación de preocupaciones, reutilización de código, flexibilidad y escalabilidad, facilidad de mantenimiento y soporte para desarrollo paralelo
+  
+* ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
+    * .
+  
+* ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+    * .
 
 ## Parte III - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
 
+ * ¿Qué es RESTful?
+    * .
+   
+* ¿En qué capa se haría su uso?
+    * .
 
 ## Parte IV - APLICACIÓN MVC JUEGO
+
+ * ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
+    * .
+   
+* Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
+    * .
