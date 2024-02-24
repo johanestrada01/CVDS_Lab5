@@ -814,6 +814,8 @@ Access-Control-Allow-Credentials: true
     7. **`@Autowired`**: Se utiliza para la inyección de dependencias, en este caso, para inyectar un objeto **`GreetingService`** en **`GreetingController`**.
     8. **`@SpringBootTest.WebEnvironment`**: Indica el entorno web para pruebas de integración. **`WebEnvironment.RANDOM_PORT`** inicia la aplicación en un puerto aleatorio para pruebas.
 
+![parte2](./imagenes/part2.png)
+
 ## Parte III - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
 
  * ¿Qué es RESTful?
