@@ -1,4 +1,4 @@
-package consumeapi;
+package com.xv.consumeapi;
 public class Address {
     private String street;
     private String suite;

@@ -1,4 +1,4 @@
-package consumeapi;
+package com.xv.consumeapi;
 public class User {
     private Integer id;
     private String name;

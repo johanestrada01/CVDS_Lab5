@@ -1,4 +1,4 @@
-package consumeapi;
+package com.xv.consumeapi;
 public class Company {
     private String name;
     private String catchPhrase;

@@ -1,4 +1,4 @@
-package consumeapi;
+package com.xv.consumeapi;
 public class Geo {
     private String lat;
     private String lng;
