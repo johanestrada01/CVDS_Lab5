@@ -802,10 +802,17 @@ Access-Control-Allow-Credentials: true
     * Algunas ventajas son la separación de preocupaciones, reutilización de código, flexibilidad y escalabilidad, facilidad de mantenimiento y soporte para desarrollo paralelo
   
 * ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
-    * .
-  
-* ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
-    * .
+    * Aquí se nos presentan carpetas nuevas, como java dentro de la carpeta main, resources (static, templates). Y una carpeta .mvn que almacena el jar. La estructura de directorios de un proyecto Spring Boot incluye convenciones específicas para facilitar el desarrollo de aplicaciones web, integrando características como el manejo de recursos estáticos, plantillas y configuraciones personalizadas para la construcción del proyecto.
+
+- ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+    1. **`@SpringBootApplication`**: Se utiliza en la clase principal de la aplicación y combina anotaciones como **`@Configuration`**, **`@EnableAutoConfiguration`**, y **`@ComponentScan`**. Simplifica la configuración de la aplicación.
+    2. **`@Controller`**: Anota una clase como controlador en el contexto de Spring MVC, indicando que manejará solicitudes HTTP y generará respuestas HTTP.
+    3. **`@GetMapping`**: Anota un método de controlador para manejar solicitudes HTTP GET a una ruta específica, mapeando la ruta "/greeting" al método **`greeting()`** en **`GreetingController`**.
+    4. **`@RequestParam`**: Vincula los parámetros de la solicitud a los parámetros del método del controlador. Se utiliza para obtener el valor del parámetro de consulta "name" en **`greeting()`**.
+    5. **`@SpringBootTest`**: Indica a Spring Boot que busque una clase de configuración y cargue el contexto de la aplicación para pruebas de integración.
+    6. **`@RunWith`**: Personaliza la ejecución de pruebas, donde **`@RunWith(SpringRunner.class)`** indica que Spring Runner debe ejecutar las pruebas.
+    7. **`@Autowired`**: Se utiliza para la inyección de dependencias, en este caso, para inyectar un objeto **`GreetingService`** en **`GreetingController`**.
+    8. **`@SpringBootTest.WebEnvironment`**: Indica el entorno web para pruebas de integración. **`WebEnvironment.RANDOM_PORT`** inicia la aplicación en un puerto aleatorio para pruebas.
 
 ## Parte III - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
 
