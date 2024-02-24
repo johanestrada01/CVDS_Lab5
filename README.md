@@ -817,12 +817,16 @@ Access-Control-Allow-Credentials: true
 ![parte2](./imagenes/part2.png)
 
 ## Parte III - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
+![parte3_1](./imagenes/part3_1.png)
+![parte3_2](./imagenes/part3_2.png)
 
- * ¿Qué es RESTful?
-    * .
-   
-* ¿En qué capa se haría su uso?
-    * .
+**¿Qué es RESTful?**
+
+RESTful es un enfoque para diseñar servicios web que sigue principios específicos. Utiliza URIs para identificar recursos y opera sobre ellos con los métodos HTTP estándar (GET, POST, PUT, DELETE). Los recursos son representados y transferidos en diferentes formatos, como JSON o XML, y no se guarda información de estado del cliente en el servidor entre solicitudes.
+
+**¿En qué capa se haría su uso?**
+
+Los servicios web RESTful son típicamente implementados en la capa de servicios o capa de negocio de una aplicación. En una arquitectura de tres capas, se encontrarían en la capa de lógica de negocio. Estos servicios permiten la comunicación eficiente entre el cliente (capa de presentación) y el servidor, exponiendo recursos y facilitando la interacción en aplicaciones web y móviles.
 
 ## Parte IV - APLICACIÓN MVC JUEGO
 
