@@ -840,7 +840,7 @@ Los servicios web RESTful son típicamente implementados en la capa de servicios
 ![parte4_1](./imagenes/part4-5.png)
 
  * ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
-    * .
+    * Si ambos no tienen el proyecto localmente, es decir, solo una persona lo tiene y la otra intenta acceder por el mismo link, no lo dejará.
    
 * Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
-    * .
+    * Si se abre [el sitio de juegos](http://localhost:8080/guess) en dos navegadores diferentes, cada uno de ellos creará su propia sesión independiente. Cada sesión tendrá su propia instancia del controlador y su propio estado del juego. Por lo tanto, si se juega en un navegador, no afectará el juego que se esté jugando en otro navegador.
