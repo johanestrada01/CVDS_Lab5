@@ -834,13 +834,14 @@ Los servicios web RESTful son típicamente implementados en la capa de servicios
 
 ## Parte IV - APLICACIÓN MVC JUEGO
 ![parte4_1](./imagenes/part4-1.png)
-![parte4_1](./imagenes/part4-2.png)
-![parte4_1](./imagenes/part4-3.png)
-![parte4_1](./imagenes/part4-4.png)
-![parte4_1](./imagenes/part4-5.png)
+![parte4_2](./imagenes/part4-2.png)
+![parte4_3](./imagenes/part4-3.png)
+![parte4_4](./imagenes/part4-4.png)
+![parte4_5](./imagenes/part4-5.png)
 
  * ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
     * Si ambos no tienen el proyecto localmente, es decir, solo una persona lo tiene y la otra intenta acceder por el mismo link, no lo dejará.
-   
+   ![parte4_6](./imagenes/part4-6.png)
+
 * Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
-    * Si se abre [el sitio de juegos](http://localhost:8080/guess) en dos navegadores diferentes, cada uno de ellos creará su propia sesión independiente. Cada sesión tendrá su propia instancia del controlador y su propio estado del juego. Por lo tanto, si se juega en un navegador, no afectará el juego que se esté jugando en otro navegador.
+    * Si se abre http://localhost:8080/guess en dos navegadores diferentes, cada uno de ellos creará su propia sesión independiente. Cada sesión tendrá su propia instancia del controlador y su propio estado del juego. Por lo tanto, si se juega en un navegador, no afectará el juego que se esté jugando en otro navegador.
