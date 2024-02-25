@@ -833,6 +833,11 @@ RESTful es un enfoque para diseñar servicios web que sigue principios específi
 Los servicios web RESTful son típicamente implementados en la capa de servicios o capa de negocio de una aplicación. En una arquitectura de tres capas, se encontrarían en la capa de lógica de negocio. Estos servicios permiten la comunicación eficiente entre el cliente (capa de presentación) y el servidor, exponiendo recursos y facilitando la interacción en aplicaciones web y móviles.
 
 ## Parte IV - APLICACIÓN MVC JUEGO
+![parte4_1](./imagenes/part4-1.png)
+![parte4_1](./imagenes/part4-2.png)
+![parte4_1](./imagenes/part4-3.png)
+![parte4_1](./imagenes/part4-4.png)
+![parte4_1](./imagenes/part4-5.png)
 
  * ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
     * .
