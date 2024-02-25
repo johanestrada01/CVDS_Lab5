@@ -820,6 +820,10 @@ Access-Control-Allow-Credentials: true
 ![parte3_1](./imagenes/part3_1.png)
 ![parte3_2](./imagenes/part3_2.png)
 
+### Usando Bootstrap ###
+![parte3_1](./imagenes/part3_1BS.png)
+![parte3_2](./imagenes/part3_2BS.png)
+
 **¿Qué es RESTful?**
 
 RESTful es un enfoque para diseñar servicios web que sigue principios específicos. Utiliza URIs para identificar recursos y opera sobre ellos con los métodos HTTP estándar (GET, POST, PUT, DELETE). Los recursos son representados y transferidos en diferentes formatos, como JSON o XML, y no se guarda información de estado del cliente en el servidor entre solicitudes.
